@@ -60,6 +60,32 @@ function dkan_sitewide_panels_default_page_manager_handlers() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
+    $pane->pid = 'new-e809b04a-b85c-458a-b488-8ee91bcb1207';
+    $pane->panel = 'contentmain';
+    $pane->type = 'page_title';
+    $pane->subtype = 'page_title';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'markup' => 'h1',
+      'class' => '',
+      'id' => '',
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'e809b04a-b85c-458a-b488-8ee91bcb1207';
+    $display->content['new-e809b04a-b85c-458a-b488-8ee91bcb1207'] = $pane;
+    $display->panels['contentmain'][0] = 'new-e809b04a-b85c-458a-b488-8ee91bcb1207';
+    $pane = new stdClass();
     $pane->pid = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
     $pane->panel = 'contentmain';
     $pane->type = 'form';
@@ -77,11 +103,11 @@ function dkan_sitewide_panels_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = 'c650a924-4993-4ac3-9d3c-a45656b528f4';
     $display->content['new-c650a924-4993-4ac3-9d3c-a45656b528f4'] = $pane;
-    $display->panels['contentmain'][0] = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
+    $display->panels['contentmain'][1] = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
     $pane = new stdClass();
     $pane->pid = 'new-23bb3d91-0edb-4ed2-a9c3-10fdac3fc38c';
     $pane->panel = 'sidebar';
@@ -104,7 +130,7 @@ function dkan_sitewide_panels_default_page_manager_handlers() {
     $pane->uuid = '23bb3d91-0edb-4ed2-a9c3-10fdac3fc38c';
     $display->content['new-23bb3d91-0edb-4ed2-a9c3-10fdac3fc38c'] = $pane;
     $display->panels['sidebar'][0] = 'new-23bb3d91-0edb-4ed2-a9c3-10fdac3fc38c';
-  $display->hide_title = PANELS_TITLE_NONE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
   $handler->conf['display'] = $display;
   $export['node_edit_panel_context'] = $handler;
@@ -159,6 +185,32 @@ function dkan_sitewide_panels_default_page_manager_handlers() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
+    $pane->pid = 'new-adef3a5e-dae2-4b36-8e9f-6aafc64b9c21';
+    $pane->panel = 'contentmain';
+    $pane->type = 'page_title';
+    $pane->subtype = 'page_title';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'markup' => 'h1',
+      'class' => '',
+      'id' => '',
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'adef3a5e-dae2-4b36-8e9f-6aafc64b9c21';
+    $display->content['new-adef3a5e-dae2-4b36-8e9f-6aafc64b9c21'] = $pane;
+    $display->panels['contentmain'][0] = 'new-adef3a5e-dae2-4b36-8e9f-6aafc64b9c21';
+    $pane = new stdClass();
     $pane->pid = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
     $pane->panel = 'contentmain';
     $pane->type = 'form';
@@ -176,11 +228,11 @@ function dkan_sitewide_panels_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = 'c650a924-4993-4ac3-9d3c-a45656b528f4';
     $display->content['new-c650a924-4993-4ac3-9d3c-a45656b528f4'] = $pane;
-    $display->panels['contentmain'][0] = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
+    $display->panels['contentmain'][1] = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
     $pane = new stdClass();
     $pane->pid = 'new-98266867-26b3-4d5e-942c-54b0c53b51b7';
     $pane->panel = 'sidebar';
@@ -203,7 +255,7 @@ function dkan_sitewide_panels_default_page_manager_handlers() {
     $pane->uuid = '98266867-26b3-4d5e-942c-54b0c53b51b7';
     $display->content['new-98266867-26b3-4d5e-942c-54b0c53b51b7'] = $pane;
     $display->panels['sidebar'][0] = 'new-98266867-26b3-4d5e-942c-54b0c53b51b7';
-  $display->hide_title = PANELS_TITLE_NONE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-c650a924-4993-4ac3-9d3c-a45656b528f4';
   $handler->conf['display'] = $display;
   $export['node_edit_panel_context_2'] = $handler;
